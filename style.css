@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game_run{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.box_1{
+    padding: 100px;
+    width: 700px;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+.box_2{
+    padding: 100px;
+    width: 700px;
+    background-color: rgb(152, 185, 22);
+    border-radius: 10px;
+}
+.box_3{
+    padding: 100px;
+    width: 700px;
+    background-color: rgb(17, 145, 174);
+    border-radius: 10px;
+}
+.box_4{
+    padding: 100px;
+    width: 700px;
+    background-color: rgb(235, 212, 5);
+    border-radius: 10px;
+}
+
+.box_2, .box_3, .box_4{
+    display: none;
+}
+
+
+h1{
+    padding-bottom: 10px;
+}
+
+.chance_left{
+    padding: 5px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.input_css{
+    padding: 15px;
+    font-size: 20px;
+    outline: 0;
+    border-radius: 10px;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.btn_css{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
+.posi{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.error_css{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: rgb(185, 7, 7);
+    padding: 5px;
+    font-size: 18px;
+}
+.result{
+    font-size: 40px;
+    margin: 5px;
+}
